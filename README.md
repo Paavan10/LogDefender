@@ -44,7 +44,3 @@ When executed, LogSleuth generates:
 *Cybersecurity Enthusiast | Internship Project*  
 
 ---
-
-## ⚠️ Disclaimer  
-This tool is for **educational and authorized security monitoring** only.  
-Do not analyze logs from systems you don’t own or have explicit permission to monitor.
