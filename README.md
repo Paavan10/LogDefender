@@ -29,6 +29,19 @@ Built for flexibility, LogSleuth can be extended to support **custom log formats
   
 ---
 
+## 📁 Auto-Generated Files  
+
+When you run **LogSleuth**, the following files are automatically created for analysis and reporting:  
+
+| **File Name**            | **Purpose**                                      |
+|--------------------------|--------------------------------------------------|
+| `bruteforce_report.csv`  | Logs all detected brute-force login attempts (IP, timestamp, service). |
+| `suspicious_ips.csv`     | List of IPs flagged for unusual activity or scanning behavior. |
+| `blacklisted_ips.csv`    | Records IPs found in public threat intelligence blacklists. |
+| `access_summary.png`     | Visual chart summarizing access frequency across services. |
+| `top_attackers.png`      | Graph of the most frequent offending IP addresses. |
+
+
 ## 📂 Output & Reports  
 
 When executed, LogSleuth generates:  
